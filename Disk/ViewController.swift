@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         }
         else if flag == 1 {
             view.backgroundColor = UIColor.black
+            flag = 2
+        }
+       else if flag == 2 {
+            view.backgroundColor = UIColor.brown
             flag = 0
         }
     }
